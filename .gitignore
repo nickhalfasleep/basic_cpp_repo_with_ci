@@ -1,0 +1,35 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+##### Linux
+*~
+
+##### MacOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Debug/
+_deps
+
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile
+*.cmake
+
+##### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
